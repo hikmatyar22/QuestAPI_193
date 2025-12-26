@@ -60,6 +60,7 @@ dependencies {
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.okhttp)
     implementation(libs.okhttp.logging)
+    implementation(libs.androidx.lifecycle.viewmodel.savedstate)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
